@@ -1,0 +1,66 @@
+competition_color: "red"           #比赛时我方颜色
+# competition_color: "blue"
+
+####-----KFS-----####
+model_path: assets/KFS_315.xml
+device: CPU
+min_confidence: 0.1
+trt_model_path: assets/KFS605.engine
+trt_device: GPU
+save_path: imgs
+
+#####-----ROI-----#####
+roi: 
+  x: 420
+  y: 50
+  width: 600
+  height: 600
+
+use_roi: false
+
+
+#####-----Com-----#####
+com_port: /dev/ttyUSB0
+baudrate: 921600
+
+#####-----USBCamera-----#####
+image_width: 640 #1280
+image_height: 480 #1024
+usb_exposure: 157
+usb_frame_rate: 120
+usb_gamma: 0
+usb_gain: 1
+usb_camera_matrix: [463.287829, 0, 309.605339, 0, 462.5452210, 223.347301, 0, 0, 1]
+usb_distort_coeffs: [-0.398661, 0.148737, -0.004289, -0.002410, 0]
+
+
+
+#######-----Wepend-----#######
+model_path_wepend: assets/wepend412.xml
+device_wepend: CPU
+min_confidence_wepend: 0.85  
+trt_model_path_wepend: assets/wepend605.engine
+trt_device_wepend: GPU
+
+
+#######-----YOLO-LS-----#######
+model_path_ls: assets/lo_shu_grid.xml
+device_ls: CPU
+min_confidence_ls: 0.25
+
+#######-----yolo11_lstrt-----#######
+trt_model_path_ls: assets/lo_shu_grid.engine
+trt_device_ls: GPU
+score_threshold_ls: 0.9
+nms_threshold_ls: 0.45
+kpt_threshold: 0.30
+
+########-----yolo12_num-----########
+trt_model_path_num: assets/num.engine
+trt_device_num: GPU
+
+########-----light_trt------########
+trt_model_path_light: assets/light.engine
+trt_device_light: GPU
+min_confidence_light: 0.7
+

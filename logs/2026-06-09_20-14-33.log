@@ -1,0 +1,1 @@
+[2026-06-09 20:14:33.756] [error] [Com] Failed to open serial: IO Exception (2): No such file or directory, file /home/oy/桌面/rctest（复件）/Com/serial/src/impl/unix.cc, line 151.

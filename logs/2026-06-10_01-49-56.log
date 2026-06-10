@@ -1,0 +1,29 @@
+[2026-06-10 01:49:56.872] [info] [Com] read_thread started.
+[2026-06-10 01:49:56.879] [info] RealSense daemon thread started.
+[2026-06-10 01:49:56.879] [info] [Meilin] meilin_count: 5
+[2026-06-10 01:49:56.879] [info] [Meilin] point[0]: cell=2, horizontal_s=3, vertical_s=5
+[2026-06-10 01:49:56.879] [info] [Meilin] point[1]: cell=5, horizontal_s=3, vertical_s=5
+[2026-06-10 01:49:56.879] [info] [Meilin] point[2]: cell=4, horizontal_s=1, vertical_s=5
+[2026-06-10 01:49:56.879] [info] [Meilin] point[3]: cell=7, horizontal_s=3, vertical_s=6
+[2026-06-10 01:49:56.879] [info] [Meilin] point[4]: cell=10, horizontal_s=3, vertical_s=6
+[2026-06-10 01:49:56.879] [info] [Meilin] point[5]: cell=0, horizontal_s=0, vertical_s=0
+[2026-06-10 01:49:56.879] [info] [Meilin] point[6]: cell=0, horizontal_s=0, vertical_s=0
+[2026-06-10 01:49:56.879] [info] [Meilin] point[7]: cell=0, horizontal_s=0, vertical_s=0
+[2026-06-10 01:49:56.879] [info] [Meilin] point[8]: cell=0, horizontal_s=0, vertical_s=0
+[2026-06-10 01:49:57.091] [info] Set exposure on sensor: RGB Camera
+[2026-06-10 01:49:57.093] [info] RealSense capture thread started.
+[2026-06-10 01:49:57.093] [info] RealSense started:
+RealSense Camera Info
+  name        : Intel RealSense D435I
+  serial      : 138422076703
+  firmware    : 5.17.0.10
+  product_id  : 0B3A
+  product_line: D400
+  usb_type    : 3.2
+  depth_scale : 0.001 (meters per unit)
+  color intrinsics: w=640 h=480 fx=605.098 fy=605.042 ppx=322.809 ppy=245.326
+  depth intrinsics: w=640 h=480 fx=380.867 fy=380.867 ppx=323.514 ppy=239.504
+
+[2026-06-10 01:50:29.438] [info] RealSense capture thread stopped.
+[2026-06-10 01:50:29.670] [info] RealSense daemon thread stopped.
+[2026-06-10 01:50:29.670] [info] RealSense destructed.
